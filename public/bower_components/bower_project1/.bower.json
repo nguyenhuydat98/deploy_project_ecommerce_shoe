@@ -1,0 +1,13 @@
+{
+  "name": "bower_project1",
+  "homepage": "https://github.com/kawaibii/bower_project1",
+  "_release": "1c560147dc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1c560147dc50f447d6fc6961715480b883742dce"
+  },
+  "_source": "git@github.com:kawaibii/bower_project1.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:kawaibii/bower_project1.git"
+}

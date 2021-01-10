@@ -1,0 +1,1693 @@
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding:.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    background-color: #286090;
+}
+
+.dropdown-item .active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+}
+
+.dropdown-item .disabled, .dropdown-item:disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: transparent;
+}
+
+#show_errors {
+    color: red;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    display: none;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hero-bread {
+    background-image: url('bower_components/bower_project1/user/images/bg_6.jpg');
+}
+
+.wrap-user-login-page .btn-forgot-password {
+    float: left;
+    display: inline;
+    margin-top: 10px;
+}
+
+.wrap-user-login-page .btn-register {
+    float: right;
+    display: inline;
+    margin-top: 10px;
+}
+
+.wrap-user-login-page a:hover {
+    text-decoration: none;
+}
+
+.wrap-user-register-page .btn-login {
+    float:right;
+    display: inline;
+    margin-top: 10px;
+}
+
+.wrap-user-register-page a:hover {
+    text-decoration: none;
+}
+
+#infor {
+    width: 40%;
+    float: left;
+    color: #0d6aad;
+}
+
+#name-product {
+    color: #0E0EFF;
+}
+
+.infor .star {
+    color: greenyellow;
+    font-size: 25px;
+}
+.item-product {
+    font-size: 20px;
+    margin-top: 20px
+}
+
+#jtab {
+    justify-content: center;
+}
+
+#jtab li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#jtab li a:hover {
+    background: #0d6aad;
+    color: #1b1918;
+}
+
+.item-image {
+    width: 100%;
+    height: 200px;
+}
+
+.row .img {
+    padding: 20px;
+}
+
+#image-product {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.item-detail-product {
+    position: relative;
+}
+
+.item-detail-product .delete-product {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.icon-delete {
+    border-radius: 20px;
+}
+
+.title-comment {
+    float: right;
+}
+
+.rating-wrap {
+    border-left: solid 1px black;
+    padding: 20px;
+}
+
+.rating-wrap h3 {
+    padding-bottom: 20px;
+}
+
+.header-table {
+    background: black;
+    color: white;
+}
+
+.data-product-detail {
+    width: 70%;
+}
+
+.rating {
+    float:left;
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.list-comment {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
+
+.list-reply {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+
+.user-img {
+    background-image: url(/bower_components/bower_project1/user/images/person_1.jpg);
+}
+
+.user-reply {
+    display: none;
+}
+
+.wrap-user-product-page .hero-bread {
+    background-image: url('../bower_components/bower_project1/user/images/bg_6.jpg');
+}
+
+.wrap-user-product-page .original-price {
+    text-decoration: line-through;
+    color: #6E6E6E;
+    font-size: 14px;
+}
+
+.wrap-user-product-page .current-price {
+    color: #FF0000;
+    font-size: 17px;
+}
+
+.wrap-user-product-page .paginate {
+    float: right;
+}
+
+.name-customer {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.phone-customer {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.address-customer {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.note-customer {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.product-detail {
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+}
+
+.product {
+    padding: 10px;
+}
+
+.total {
+    margin-top:20px;
+    padding: 10px;
+    font-size: 16px;
+    color: red;
+}
+
+#show-order {
+    width: 800px;
+}
+
+#image-detail {
+    width : 100px;
+    height : 100px;
+}
+
+.button.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.wrap-user-product-detail-page .product-name {
+    font-weight: 600;
+}
+
+.wrap-user-product-detail-page .list-image:hover {
+    cursor: pointer;
+    border: 1px solid #BDBDBD;
+}
+
+.wrap-user-product-detail-page .price .original-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+
+.wrap-user-product-detail-page .price .current-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FE2E2E;
+}
+
+.wrap-user-product-detail-page .list-image {
+    width: 100%;
+}
+
+.wrap-user-product-detail-page .size {
+    padding-top: 5px;
+    padding-right: 17px;
+}
+
+.wrap-user-product-detail-page .wrap-size {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.wrap-user-product-detail-page .quantity {
+    color: #000;
+}
+
+.icon-shopping_cart {
+    font-size: 25px !important;
+}
+
+.nav-link {
+    font-size: 14px !important;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #0080FF;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#icon-notification {
+    font-size: 22px;
+    color: #000;
+    margin-top: 2px;
+}
+
+#detail-notify {
+    overflow: auto;
+    max-height: 245px;
+}
+
+#detail-notify::-webkit-scrollbar {
+    width: 3px;
+    background-color: #fff;
+}
+
+#detail-notify::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+}
+
+.nav-link {
+    letter-spacing: 0.5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#dropdown04 {
+    text-transform: none !important;
+}
+
+.unread {
+    background-color: #6495ed !important;
+}
+
+.unread:hover {
+    color: #fff !important;
+    background-color: #0000cd !important;
+}
+
+.wrap-user-cart-page .hero-bread {
+    background-image: url('../bower_components/bower_project1/user/images/bg_6.jpg');
+}
+
+.wrap-user-cart-page .buy-now {
+    color: #2E64FE;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wrap-user-cart-page .img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.wrap-user-cart-page .tr-total {
+
+}
+.wrap-user-cart-page .total-price {
+    background-color: #D8D8D8;
+}
+
+.wrap-user-cart-page td {
+    padding: 10px 5px !important;
+}
+
+.wrap-user-cart-page .size {
+    width: 20px !important;
+}
+
+.wrap-user-cart-page .quantity {
+    width: 20px !important;
+}
+
+.wrap-user-cart-page .btn-checkout {
+    float:right;
+    width: 30%;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.wrap-user-checkout-page .hero-bread {
+    background-image: url('../bower_components/bower_project1/user/images/bg_6.jpg');
+}
+
+.wrap-user-checkout-page .list-cart-detail {
+    padding-top: 30px;
+}
+
+.wrap-user-checkout-page .user-info {
+    float: left;
+    width: 45%;
+}
+
+.wrap-user-checkout-page .order-info {
+    float: right;
+    width: 45%;
+}
+
+.wrap-user-checkout-page .form-checkout {
+    width: 100%;
+    height: 500px;
+}
+
+.wrap-user-checkout-page .form-checkout ::-webkit-input-placeholder {
+    font-size: 13px;
+    color: #848484;
+}
+
+.wrap-user-checkout-page .order-info .line {
+    padding-top: 15px;
+    color: #000;
+}
+
+.wrap-user-checkout-page .order-info .line .title {
+    display: inline-block;
+    width: 30%;
+}
+
+.wrap-user-checkout-page .order-info .line .content {
+    display: inline-block;
+    font-weight: 600;
+    text-align: left;
+    width: 90px;
+}
+
+.wrap-user-checkout-page .btn-checkout {
+    margin-top: 30px;
+    width: 63%;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.wrap-user-checkout-page .order-info .form-group {
+    padding-top: 13px;
+}
+
+.wrap-user-order-history-page {
+    min-height: 750px;
+}
+
+.wrap-user-order-history-page .hero-bread {
+    background-image: url('../bower_components/bower_project1/user/images/bg_6.jpg');
+}
+
+.wrap-user-order-history-page table {
+    margin: 50px 0;
+}
+
+.wrap-user-order-history-page .paginate {
+    float: right;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-primary {
+    background-color: #337ab7;
+}
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+.label-danger {
+    background-color: #d9534f;
+}
+
+.label-default {
+    background-color: #777;
+}
+
+.wrap-user-order-detail-modal .title {
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    color: #777;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 13%;
+}
+
+.wrap-user-order-detail-modal .content {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-align: left;
+    width: 30%;
+}
+
+.wrap-user-order-detail-modal .column {
+    padding: 6px 0;
+}
+
+.wrap-user-order-detail-modal .btn-detail {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.wrap-user-order-detail-modal .btn-cancel {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.wrap-user-order-detail-modal .btn-close {
+    font-weight: 500;
+    font-size: 14px;
+    width: 100px;
+}
+
+.wrap-user-order-history-by-status-page .hero-bread {
+    background-image: url('../bower_components/bower_project1/user/images/bg_6.jpg');
+}
+
+.wrap-user-order-history-by-status-page .group-tabs {
+    margin-top: 30px;
+    min-height: 250px;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs li {
+    float: left;
+    width: 10%;
+    display: inline-block;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs .nav {
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs .nav-pills {
+    width: 100%;
+    display: inline-block;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs .nav-pills>li.active>a {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs .nav-pills>li.active>a:hover {
+    cursor: pointer;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs .nav-pills>li>a {
+    border-radius: 5px;
+}
+
+.wrap-user-order-history-by-status-page .group-tabs .nav>li>a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+#container {
+    width: 100%;
+    height: 400px;
+}
+.highcharts-pie-series .highcharts-point {
+    stroke: #EDE;
+    stroke-width: 2px;
+}
+.highcharts-pie-series .highcharts-data-label-connector {
+    stroke: silver;
+    stroke-dasharray: 2, 2;
+    stroke-width: 2px;
+}
+
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 320px;
+    max-width: 600px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+.highcharts-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: normal;
+    z-index: 0;
+    /* #1072 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    user-select: none;
+}
+
+.highcharts-root {
+    display: block;
+}
+
+.highcharts-root text {
+    stroke-width: 0;
+}
+
+.highcharts-strong {
+    font-weight: bold;
+}
+
+.highcharts-emphasized {
+    font-style: italic;
+}
+
+.highcharts-anchor {
+    cursor: pointer;
+}
+
+.highcharts-background {
+    fill: #ffffff;
+}
+
+.highcharts-plot-border, .highcharts-plot-background {
+    fill: none;
+}
+
+.highcharts-label-box {
+    fill: none;
+}
+
+.highcharts-button-box {
+    fill: inherit;
+}
+
+.highcharts-tracker-line {
+    stroke-linejoin: round;
+    stroke: rgba(192, 192, 192, 0.0001);
+    stroke-width: 22;
+    fill: none;
+}
+
+.highcharts-tracker-area {
+    fill: rgba(192, 192, 192, 0.0001);
+    stroke-width: 0;
+}
+
+/* Titles */
+.highcharts-title {
+    fill: #333333;
+    font-size: 1.5em;
+}
+
+.highcharts-subtitle {
+    fill: #666666;
+}
+
+/* Axes */
+.highcharts-axis-line {
+    fill: none;
+    stroke: #ccd6eb;
+}
+
+.highcharts-yaxis .highcharts-axis-line {
+    stroke-width: 0;
+}
+
+.highcharts-axis-title {
+    fill: #666666;
+}
+
+.highcharts-axis-labels {
+    fill: #666666;
+    cursor: default;
+    font-size: 0.9em;
+}
+
+.highcharts-grid-line {
+    fill: none;
+    stroke: #e6e6e6;
+}
+
+.highcharts-xaxis-grid .highcharts-grid-line {
+    stroke-width: 0px;
+}
+
+.highcharts-tick {
+    stroke: #ccd6eb;
+}
+
+.highcharts-yaxis .highcharts-tick {
+    stroke-width: 0;
+}
+
+.highcharts-minor-grid-line {
+    stroke: #f2f2f2;
+}
+
+.highcharts-crosshair-thin {
+    stroke-width: 1px;
+    stroke: #cccccc;
+}
+
+.highcharts-crosshair-category {
+    stroke: #ccd6eb;
+    stroke-opacity: 0.25;
+}
+
+/* Credits */
+.highcharts-credits {
+    cursor: pointer;
+    fill: #999999;
+    font-size: 0.7em;
+    transition: fill 250ms, font-size 250ms;
+}
+
+.highcharts-credits:hover {
+    fill: black;
+    font-size: 1em;
+}
+
+/* Tooltip */
+.highcharts-tooltip {
+    cursor: default;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: stroke 150ms;
+}
+
+.highcharts-tooltip text {
+    fill: #333333;
+}
+
+.highcharts-tooltip .highcharts-header {
+    font-size: 0.85em;
+}
+
+.highcharts-tooltip-box {
+    stroke-width: 1px;
+    fill: #f7f7f7;
+    fill-opacity: 0.85;
+}
+
+.highcharts-tooltip-box .highcharts-label-box {
+    fill: #f7f7f7;
+    fill-opacity: 0.85;
+}
+
+div.highcharts-tooltip {
+    filter: none;
+}
+
+.highcharts-selection-marker {
+    fill: #335cad;
+    fill-opacity: 0.25;
+}
+
+.highcharts-graph {
+    fill: none;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.highcharts-empty-series {
+    stroke-width: 1px;
+    fill: none;
+    stroke: #cccccc;
+}
+
+.highcharts-state-hover .highcharts-graph {
+    stroke-width: 3;
+}
+
+.highcharts-point-inactive {
+    opacity: 0.2;
+    transition: opacity 50ms;
+    /* quick in */
+}
+
+.highcharts-series-inactive {
+    opacity: 0.2;
+    transition: opacity 50ms;
+    /* quick in */
+}
+
+.highcharts-state-hover path {
+    transition: stroke-width 50ms;
+    /* quick in */
+}
+
+.highcharts-state-normal path {
+    transition: stroke-width 250ms;
+    /* slow out */
+}
+
+/* Legend hover affects points and series */
+g.highcharts-series,
+.highcharts-point,
+.highcharts-markers,
+.highcharts-data-labels {
+    transition: opacity 250ms;
+}
+
+.highcharts-legend-series-active g.highcharts-series:not(.highcharts-series-hover),
+.highcharts-legend-point-active .highcharts-point:not(.highcharts-point-hover),
+.highcharts-legend-series-active .highcharts-markers:not(.highcharts-series-hover),
+.highcharts-legend-series-active .highcharts-data-labels:not(.highcharts-series-hover) {
+    opacity: 0.2;
+}
+
+/* Series options */
+/* Default colors */
+.highcharts-color-0 {
+    fill: #7cb5ec;
+    stroke: #7cb5ec;
+}
+
+.highcharts-color-1 {
+    fill: #434348;
+    stroke: #434348;
+}
+
+.highcharts-color-2 {
+    fill: #90ed7d;
+    stroke: #90ed7d;
+}
+
+.highcharts-color-3 {
+    fill: #f7a35c;
+    stroke: #f7a35c;
+}
+
+.highcharts-color-4 {
+    fill: #8085e9;
+    stroke: #8085e9;
+}
+
+.highcharts-color-5 {
+    fill: #f15c80;
+    stroke: #f15c80;
+}
+
+.highcharts-color-6 {
+    fill: #e4d354;
+    stroke: #e4d354;
+}
+
+.highcharts-color-7 {
+    fill: #2b908f;
+    stroke: #2b908f;
+}
+
+.highcharts-color-8 {
+    fill: #f45b5b;
+    stroke: #f45b5b;
+}
+
+.highcharts-color-9 {
+    fill: #91e8e1;
+    stroke: #91e8e1;
+}
+
+.highcharts-area {
+    fill-opacity: 0.75;
+    stroke-width: 0;
+}
+
+.highcharts-markers {
+    stroke-width: 1px;
+    stroke: #ffffff;
+}
+
+.highcharts-a11y-markers-hidden .highcharts-point:not(.highcharts-point-hover):not(.highcharts-a11y-marker-visible),
+.highcharts-a11y-marker-hidden {
+    opacity: 0;
+}
+
+.highcharts-point {
+    stroke-width: 1px;
+}
+
+.highcharts-dense-data .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-data-label {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.highcharts-data-label-box {
+    fill: none;
+    stroke-width: 0;
+}
+
+.highcharts-data-label text, text.highcharts-data-label {
+    fill: #333333;
+}
+
+.highcharts-data-label-connector {
+    fill: none;
+}
+
+.highcharts-data-label-hidden {
+    pointer-events: none;
+}
+
+.highcharts-halo {
+    fill-opacity: 0.25;
+    stroke-width: 0;
+}
+
+.highcharts-series:not(.highcharts-pie-series) .highcharts-point-select,
+.highcharts-markers .highcharts-point-select {
+    fill: #cccccc;
+    stroke: #000000;
+}
+
+.highcharts-column-series rect.highcharts-point {
+    stroke: #ffffff;
+}
+
+.highcharts-column-series .highcharts-point {
+    transition: fill-opacity 250ms;
+}
+
+.highcharts-column-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-pie-series .highcharts-point {
+    stroke-linejoin: round;
+    stroke: #ffffff;
+}
+
+.highcharts-pie-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-funnel-series .highcharts-point {
+    stroke-linejoin: round;
+    stroke: #ffffff;
+}
+
+.highcharts-funnel-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-funnel-series .highcharts-point-select {
+    fill: inherit;
+    stroke: inherit;
+}
+
+.highcharts-pyramid-series .highcharts-point {
+    stroke-linejoin: round;
+    stroke: #ffffff;
+}
+
+.highcharts-pyramid-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-pyramid-series .highcharts-point-select {
+    fill: inherit;
+    stroke: inherit;
+}
+
+.highcharts-solidgauge-series .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-treemap-series .highcharts-point {
+    stroke-width: 1px;
+    stroke: #e6e6e6;
+    transition: stroke 250ms, fill 250ms, fill-opacity 250ms;
+}
+
+.highcharts-treemap-series .highcharts-point-hover {
+    stroke: #999999;
+    transition: stroke 25ms, fill 25ms, fill-opacity 25ms;
+}
+
+.highcharts-treemap-series .highcharts-above-level {
+    display: none;
+}
+
+.highcharts-treemap-series .highcharts-internal-node {
+    fill: none;
+}
+
+.highcharts-treemap-series .highcharts-internal-node-interactive {
+    fill-opacity: 0.15;
+    cursor: pointer;
+}
+
+.highcharts-treemap-series .highcharts-internal-node-interactive:hover {
+    fill-opacity: 0.75;
+}
+
+.highcharts-vector-series .highcharts-point {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.highcharts-windbarb-series .highcharts-point {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.highcharts-lollipop-stem {
+    stroke: #000000;
+}
+
+.highcharts-focus-border {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.highcharts-legend-item-hidden .highcharts-focus-border {
+    fill: none !important;
+}
+
+/* Legend */
+.highcharts-legend-box {
+    fill: none;
+    stroke-width: 0;
+}
+
+.highcharts-legend-item > text {
+    fill: #333333;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    stroke-width: 0;
+}
+
+.highcharts-legend-item:hover text {
+    fill: #000000;
+}
+
+.highcharts-legend-item-hidden * {
+    fill: #cccccc !important;
+    stroke: #cccccc !important;
+    transition: fill 250ms;
+}
+
+.highcharts-legend-nav-active {
+    fill: #003399;
+    cursor: pointer;
+}
+
+.highcharts-legend-nav-inactive {
+    fill: #cccccc;
+}
+
+circle.highcharts-legend-nav-active, circle.highcharts-legend-nav-inactive {
+    /* tracker */
+    fill: rgba(192, 192, 192, 0.0001);
+}
+
+.highcharts-legend-title-box {
+    fill: none;
+    stroke-width: 0;
+}
+
+/* Bubble legend */
+.highcharts-bubble-legend-symbol {
+    stroke-width: 2;
+    fill-opacity: 0.5;
+}
+
+.highcharts-bubble-legend-connectors {
+    stroke-width: 1;
+}
+
+.highcharts-bubble-legend-labels {
+    fill: #333333;
+}
+
+/* Loading */
+.highcharts-loading {
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.5;
+    text-align: center;
+    z-index: 10;
+    transition: opacity 250ms;
+}
+
+.highcharts-loading-hidden {
+    height: 0 !important;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 250ms, height 250ms step-end;
+}
+
+.highcharts-loading-inner {
+    font-weight: bold;
+    position: relative;
+    top: 45%;
+}
+
+/* Plot bands and polar pane backgrounds */
+.highcharts-plot-band, .highcharts-pane {
+    fill: #000000;
+    fill-opacity: 0.05;
+}
+
+.highcharts-plot-line {
+    fill: none;
+    stroke: #999999;
+    stroke-width: 1px;
+}
+
+/* Highcharts More and modules */
+.highcharts-boxplot-box {
+    fill: #ffffff;
+}
+
+.highcharts-boxplot-median {
+    stroke-width: 2px;
+}
+
+.highcharts-bubble-series .highcharts-point {
+    fill-opacity: 0.5;
+}
+
+.highcharts-errorbar-series .highcharts-point {
+    stroke: #000000;
+}
+
+.highcharts-gauge-series .highcharts-data-label-box {
+    stroke: #cccccc;
+    stroke-width: 1px;
+}
+
+.highcharts-gauge-series .highcharts-dial {
+    fill: #000000;
+    stroke-width: 0;
+}
+
+.highcharts-polygon-series .highcharts-graph {
+    fill: inherit;
+    stroke-width: 0;
+}
+
+.highcharts-waterfall-series .highcharts-graph {
+    stroke: #333333;
+    stroke-dasharray: 1, 3;
+}
+
+.highcharts-sankey-series .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-sankey-series .highcharts-link {
+    transition: fill 250ms, fill-opacity 250ms;
+    fill-opacity: 0.5;
+}
+
+.highcharts-sankey-series .highcharts-point-hover.highcharts-link {
+    transition: fill 50ms, fill-opacity 50ms;
+    fill-opacity: 1;
+}
+
+.highcharts-venn-series .highcharts-point {
+    fill-opacity: 0.75;
+    stroke: #cccccc;
+    transition: stroke 250ms, fill-opacity 250ms;
+}
+
+.highcharts-venn-series .highcharts-point-hover {
+    fill-opacity: 1;
+    stroke: #cccccc;
+}
+
+/* Highstock */
+.highcharts-navigator-mask-outside {
+    fill-opacity: 0;
+}
+
+.highcharts-navigator-mask-inside {
+    fill: #6685c2;
+    /* navigator.maskFill option */
+    fill-opacity: 0.25;
+    cursor: ew-resize;
+}
+
+.highcharts-navigator-outline {
+    stroke: #cccccc;
+    fill: none;
+}
+
+.highcharts-navigator-handle {
+    stroke: #cccccc;
+    fill: #f2f2f2;
+    cursor: ew-resize;
+}
+
+.highcharts-navigator-series {
+    fill: #335cad;
+    stroke: #335cad;
+}
+
+.highcharts-navigator-series .highcharts-graph {
+    stroke-width: 1px;
+}
+
+.highcharts-navigator-series .highcharts-area {
+    fill-opacity: 0.05;
+}
+
+.highcharts-navigator-xaxis .highcharts-axis-line {
+    stroke-width: 0;
+}
+
+.highcharts-navigator-xaxis .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: #e6e6e6;
+}
+
+.highcharts-navigator-xaxis.highcharts-axis-labels {
+    fill: #999999;
+}
+
+.highcharts-navigator-yaxis .highcharts-grid-line {
+    stroke-width: 0;
+}
+
+.highcharts-scrollbar-thumb {
+    fill: #cccccc;
+    stroke: #cccccc;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-button {
+    fill: #e6e6e6;
+    stroke: #cccccc;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-arrow {
+    fill: #666666;
+}
+
+.highcharts-scrollbar-rifles {
+    stroke: #666666;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-track {
+    fill: #f2f2f2;
+    stroke: #f2f2f2;
+    stroke-width: 1px;
+}
+
+.highcharts-button {
+    fill: #f7f7f7;
+    stroke: #cccccc;
+    cursor: default;
+    stroke-width: 1px;
+    transition: fill 250ms;
+}
+
+.highcharts-button text {
+    fill: #333333;
+}
+
+.highcharts-button-hover {
+    transition: fill 0ms;
+    fill: #e6e6e6;
+    stroke: #cccccc;
+}
+
+.highcharts-button-hover text {
+    fill: #333333;
+}
+
+.highcharts-button-pressed {
+    font-weight: bold;
+    fill: #e6ebf5;
+    stroke: #cccccc;
+}
+
+.highcharts-button-pressed text {
+    fill: #333333;
+    font-weight: bold;
+}
+
+.highcharts-button-disabled text {
+    fill: #333333;
+}
+
+.highcharts-range-selector-buttons .highcharts-button {
+    stroke-width: 0px;
+}
+
+.highcharts-range-label rect {
+    fill: none;
+}
+
+.highcharts-range-label text {
+    fill: #666666;
+}
+
+.highcharts-range-input rect {
+    fill: none;
+}
+
+.highcharts-range-input text {
+    fill: #333333;
+}
+
+.highcharts-range-input {
+    stroke-width: 1px;
+    stroke: #cccccc;
+}
+
+input.highcharts-range-selector {
+    position: absolute;
+    border: 0;
+    width: 1px;
+    /* Chrome needs a pixel to see it */
+    height: 1px;
+    padding: 0;
+    text-align: center;
+    left: -9em;
+    /* #4798 */
+}
+
+.highcharts-crosshair-label text {
+    fill: #ffffff;
+    font-size: 1.1em;
+}
+
+.highcharts-crosshair-label .highcharts-label-box {
+    fill: inherit;
+}
+
+.highcharts-candlestick-series .highcharts-point {
+    stroke: #000000;
+    stroke-width: 1px;
+}
+
+.highcharts-candlestick-series .highcharts-point-up {
+    fill: #ffffff;
+}
+
+.highcharts-ohlc-series .highcharts-point-hover {
+    stroke-width: 3px;
+}
+
+.highcharts-flags-series .highcharts-point .highcharts-label-box {
+    stroke: #999999;
+    fill: #ffffff;
+    transition: fill 250ms;
+}
+
+.highcharts-flags-series .highcharts-point-hover .highcharts-label-box {
+    stroke: #000000;
+    fill: #ccd6eb;
+}
+
+.highcharts-flags-series .highcharts-point text {
+    fill: #000000;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* Highmaps */
+.highcharts-map-series .highcharts-point {
+    transition: fill 500ms, fill-opacity 500ms, stroke-width 250ms;
+    stroke: #cccccc;
+}
+
+.highcharts-map-series .highcharts-point-hover {
+    transition: fill 0ms, fill-opacity 0ms;
+    fill-opacity: 0.5;
+    stroke-width: 2px;
+}
+
+.highcharts-mapline-series .highcharts-point {
+    fill: none;
+}
+
+.highcharts-heatmap-series .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-map-navigation {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.highcharts-coloraxis {
+    stroke-width: 0;
+}
+
+.highcharts-coloraxis-marker {
+    fill: #999999;
+}
+
+.highcharts-null-point {
+    fill: #f7f7f7;
+}
+
+/* 3d charts */
+.highcharts-3d-frame {
+    fill: transparent;
+}
+
+/* Exporting module */
+.highcharts-contextbutton {
+    fill: #ffffff;
+    /* needed to capture hover */
+    stroke: none;
+    stroke-linecap: round;
+}
+
+.highcharts-contextbutton:hover {
+    fill: #e6e6e6;
+    stroke: #e6e6e6;
+}
+
+.highcharts-button-symbol {
+    stroke: #666666;
+    stroke-width: 3px;
+}
+
+.highcharts-menu {
+    border: 1px solid #999999;
+    background: #ffffff;
+    padding: 5px 0;
+    box-shadow: 3px 3px 10px #888;
+}
+
+.highcharts-menu-item {
+    padding: 0.5em 1em;
+    background: none;
+    color: #333333;
+    cursor: pointer;
+    transition: background 250ms, color 250ms;
+}
+
+.highcharts-menu-item:hover {
+    background: #335cad;
+    color: #ffffff;
+}
+
+/* Drilldown module */
+.highcharts-drilldown-point {
+    cursor: pointer;
+}
+
+.highcharts-drilldown-data-label text,
+text.highcharts-drilldown-data-label,
+.highcharts-drilldown-axis-label {
+    cursor: pointer;
+    fill: #003399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* No-data module */
+.highcharts-no-data text {
+    font-weight: bold;
+    font-size: 12px;
+    fill: #666666;
+}
+
+/* Drag-panes module */
+.highcharts-axis-resizer {
+    cursor: ns-resize;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+/* Bullet type series */
+.highcharts-bullet-target {
+    stroke-width: 0;
+}
+
+/* Lineargauge type series */
+.highcharts-lineargauge-target {
+    stroke-width: 1px;
+    stroke: #333333;
+}
+
+.highcharts-lineargauge-target-line {
+    stroke-width: 1px;
+    stroke: #333333;
+}
+
+/* Annotations module */
+.highcharts-annotation-label-box {
+    stroke-width: 1px;
+    stroke: #000000;
+    fill: #000000;
+    fill-opacity: 0.75;
+}
+
+.highcharts-annotation-label text {
+    fill: #e6e6e6;
+}
+
+/* Gantt */
+.highcharts-treegrid-node-collapsed, .highcharts-treegrid-node-expanded {
+    cursor: pointer;
+}
+
+.highcharts-point-connecting-path {
+    fill: none;
+}
+
+.highcharts-grid-axis .highcharts-tick {
+    stroke-width: 1px;
+}
+
+.highcharts-grid-axis .highcharts-axis-line {
+    stroke-width: 1px;
+}
+
+#name_product {
+    color: #0E0EFF;
+}
+
+#count-notification {
+    position: absolute;
+    top : -15px;
+    right: -10px;
+    font-size: 15px;
+    color: yellow;
+    border-radius: 20px;
+    background: #0d6aad;
+    padding: 8px 8px;
+}
+
+#notification {
+    position: relative;
+    font-size: 20px;
+}
+
+.view-notification {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.seen {
+    background: #01b2d2;
+    color: white;
+}
+
+#url-notification:hover {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.img-circle {
+    width:100px;
+    height:100px;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "alert-js",
+  "description": "Customizable plug and play replacement for window.alert",
+  "main": "dist/alert.min.js",
+  "authors": [
+    "Robert Ontiu"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "customizable",
+    "alert",
+    "plugin",
+    "window.alert",
+    "replacement"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "homepage": "github.com/liquidsoft/alert.js",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    ".idea"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liquidsoft/alert.js.git"
+  },
+  "version": "0.1.3",
+  "_release": "0.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.3",
+    "commit": "43bf071382a6151b5383d444df975b14933833c7"
+  },
+  "_source": "https://github.com/liquidsoft/alert.js.git",
+  "_target": "^0.1.3",
+  "_originalSource": "alert-js"
+}
