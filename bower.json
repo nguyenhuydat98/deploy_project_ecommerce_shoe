@@ -1,0 +1,28 @@
+{
+  "name": "php_oe29_ecommerce",
+  "description": "",
+  "main": "",
+  "authors": [
+    "kawaibii <khoanld98@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bower_project1": "git@github.com:kawaibii/bower_project1.git",
+    "bootstrap-sweetalert": "^1.0.1",
+    "highcharts": "^8.2.2",
+    "ckeditor": "^4.15.0",
+    "font-awesome": "^5.15.1",
+    "chart.js": "^2.9.4",
+    "pusher-js": "pusher#^7.0.1",
+    "alert-js": "^0.1.3"
+  }
+}

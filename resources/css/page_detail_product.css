@@ -1,0 +1,155 @@
+#infor {
+    width: 40%;
+    float: left;
+    color: #0d6aad;
+}
+
+#name-product {
+    color: #0E0EFF;
+}
+
+.infor .star {
+    color: greenyellow;
+    font-size: 25px;
+}
+.item-product {
+    font-size: 20px;
+    margin-top: 20px
+}
+
+#jtab {
+    justify-content: center;
+}
+
+#jtab li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#jtab li a:hover {
+    background: #0d6aad;
+    color: #1b1918;
+}
+
+.item-image {
+    width: 100%;
+    height: 200px;
+}
+
+.row .img {
+    padding: 20px;
+}
+
+#image-product {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.item-detail-product {
+    position: relative;
+}
+
+.item-detail-product .delete-product {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.icon-delete {
+    border-radius: 20px;
+}
+
+.title-comment {
+    float: right;
+}
+
+.rating-wrap {
+    border-left: solid 1px black;
+    padding: 20px;
+}
+
+.rating-wrap h3 {
+    padding-bottom: 20px;
+}
+
+.header-table {
+    background: black;
+    color: white;
+}
+
+.data-product-detail {
+    width: 70%;
+}
+
+.rating {
+    float:left;
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.list-comment {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
+
+.list-reply {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+
+.user-img {
+    background-image: url(/bower_components/bower_project1/user/images/person_1.jpg);
+}
+
+.user-reply {
+    display: none;
+}
