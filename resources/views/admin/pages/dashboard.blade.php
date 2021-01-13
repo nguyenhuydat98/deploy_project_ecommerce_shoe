@@ -16,5 +16,5 @@
     <div class="url" data-url="{{ route('admin.highcharts') }}"></div>
 @endsection
 @section('js')
-    <script src="{{ mix('js/adminHighCharts.js') }}"></script>
+    <script src="{{ asset('js/adminHighCharts.js') }}"></script>
 @endsection

@@ -95,5 +95,5 @@
 @section('js')
     <script src="{{ asset('bower_components/bower_project1/admin/js/dataTables/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('bower_components/bower_project1/admin/js/dataTables/dataTables.bootstrap.min.js') }}"></script>
-    <script src="{{ mix('js/admin_supplier.js') }}"></script>
+    <script src="{{ asset('js/admin_supplier.js') }}"></script>
 @endsection
